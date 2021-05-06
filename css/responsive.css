@@ -1,0 +1,765 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .title p {
+        width: auto;
+    }
+
+    #banner-bottom {
+        display: none;
+    }
+
+    #portfolio-top {
+        display: none;
+    }
+
+    #portfolio-bottom {
+        display: none;
+    }
+
+    #counter-top {
+        display: none;
+    }
+
+    #counter-bottom {
+        display: none;
+    }
+
+    #image-top {
+        display: none;
+    }
+
+    #image-bottom {
+        display: none;
+    }
+
+    #about-part {
+        margin-bottom: -50px;
+        margin-top: 300px;
+    }
+
+    #service-part {
+        margin-top: -30px;
+
+    }
+
+    #pricing-part {
+        margin: 0px 0;
+    }
+
+    #counter-part {
+        margin-top: 0px;
+    }
+
+    nav button i {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0rem;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #000;
+    }
+
+    nav ul li {
+        margin-right: 0px;
+        padding-bottom: 5px;
+    }
+
+    nav ul li a:hover::after {
+        width: 0;
+    }
+
+    nav ul li a::after {
+        transition: 0s;
+    }
+
+    nav ul li a span::after {
+        width: 0;
+        background: none;
+    }
+
+    /* nav end */
+
+    #banner-part .prev {
+        top: 82%;
+    }
+
+    #banner-part .next {
+        top: 82%;
+    }
+
+    #banner-part .banner-text h3 {
+        font-size: 30px;
+    }
+
+    #banner-part .banner-text p {
+        padding: 16px;
+
+
+    }
+
+    #banner-part .banner-text h1 {
+        font-size: 44px;
+    }
+
+    #banner-part .banner-slider .overlay {
+        padding-bottom: 100px;
+    }
+
+    /* banner par end */
+    #about-part p {
+        text-align: center;
+    }
+
+    #about-part h3 {
+        text-align: center;
+    }
+
+    #about-part .item {
+        margin-bottom: 10px;
+    }
+
+    #about-part .item-round {
+        height: 220px;
+        width: 220px;
+    }
+
+    #about-part .item-round .image {
+        height: 200px;
+        width: 200px;
+    }
+
+    #about-part .shape {
+        display: none;
+    }
+
+    #about-part i {
+        display: none;
+    }
+
+    #about-part .item-left {
+        margin-bottom: -35px;
+    }
+
+    #about-part .item-right {
+        margin-bottom: 10px;
+        margin-top: -35px;
+    }
+
+    /* about part end */
+    #portfolio-part .title {
+        margin-top: -60px;
+    }
+
+    #portfolio-part .overlay {
+
+        padding: 60px 0;
+    }
+
+    /* portfolio end */
+
+    #service-part .line {
+        display: none;
+
+    }
+
+    #service-part .service {
+        flex-direction: column;
+    }
+
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #service-part .service:nth-child(2n+1) .title {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #service-part .service .image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        padding: 10px;
+        margin: 40px 0;
+    }
+
+    #service-part .service .details p {
+        text-align: center;
+    }
+
+    #service-part .service .details .shape {
+        left: 50%;
+        top: 0;
+    }
+
+    #service-part .service:nth-child(2n+1) .details .shape {
+        left: 50%;
+        top: 0;
+    }
+
+    /* service end */
+
+    #testimonial-part .overlays .text-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    #testimonial-part .overlays .text-box h3 {
+        padding-top: 15px;
+    }
+
+    #testimonial-part .overlays .text-box .shape {
+        display: none;
+    }
+
+    #testimonial-part .overlays .alignment {
+        margin-top: 80px;
+    }
+
+    #testimonial-part .overlays .testi-image-part .line {
+        height: 215px;
+    }
+
+    #testimonial-part .next {
+        bottom: -50%;
+
+    }
+
+    #testimonial-part .prev {
+        top: -45%;
+
+    }
+
+    /* testi end */
+
+    #pricing-part .price {
+        margin-bottom: 15px;
+    }
+
+
+
+    /* price end */
+    #team-part .item {
+        margin-bottom: 62px;
+    }
+
+    #team-part {
+        margin-top: 0px;
+    }
+
+    #image-part {
+        margin-bottom: 250px;
+        margin-top: 0px;
+        width: 98%;
+    }
+
+    /* team end */
+    #counter-part .overlay .rotate {
+        transform: rotate(-0deg);
+    }
+
+    /* counter end */
+    footer .logo {
+        padding-top: 30px;
+        width: 98%;
+    }
+
+    footer .footer-details p {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .title p {
+        width: 500px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0rem;
+    }
+
+
+    nav button i {
+        color: green;
+        font-size: 30px;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #000;
+    }
+
+    nav ul li {
+        margin-right: 0px;
+        padding-bottom: 10px;
+    }
+
+    nav ul li a:hover::after {
+        width: 0;
+    }
+
+    nav ul li a::after {
+        transition: 0s;
+    }
+
+    nav ul li a span::after {
+        width: 0;
+        background: none;
+    }
+
+    #banner-part .banner-slider .overlay {
+        padding: 150px 0;
+    }
+
+    #banner-part .banner-slider .banner .slick-current {
+        width: auto;
+    }
+
+    #banner-part .banner-text p {
+        padding: 20px 60px;
+    }
+
+    #about-part p {
+        text-align: center;
+    }
+
+    #about-part h3 {
+        text-align: center;
+    }
+
+    #about-part .item {
+        margin-bottom: 10px;
+    }
+
+    #about-part .item-round {
+        height: 330px;
+        width: 330px;
+    }
+
+    #about-part .item-round .image {
+        height: 300px;
+        width: 300px;
+    }
+
+    #about-part .shape {
+        display: none;
+    }
+
+    #about-part i {
+        display: none;
+    }
+
+    #about-part .item-left {
+        margin-bottom: -35px;
+    }
+
+    #about-part .item-right {
+        margin-bottom: 10px;
+        margin-top: -35px;
+    }
+
+    #portfolio-part .title {
+        margin-top: -60px;
+    }
+
+    #portfolio-part .overlay {
+
+        padding: 60px 0;
+    }
+
+    #service-part .line {
+        display: none;
+
+    }
+
+    #service-part .service {
+        flex-direction: column;
+    }
+
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #service-part .service:nth-child(2n+1) .title {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #service-part .service .image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        padding: 10px;
+        margin: 40px 0;
+    }
+
+    #service-part .service .details p {
+        text-align: center;
+    }
+
+    #service-part .service .details .shape {
+        left: 50%;
+        top: 0;
+    }
+
+    #service-part .service:nth-child(2n+1) .details .shape {
+        left: 50%;
+        top: 0;
+    }
+
+    #testimonial-part .overlays .text-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    #testimonial-part .overlays .text-box h3 {
+        padding-top: 15px;
+    }
+
+    #testimonial-part .overlays .text-box .shape {
+        display: none;
+    }
+
+    #testimonial-part .overlays .alignment {
+        margin-top: 80px;
+    }
+
+    #testimonial-part .overlays .testi-image-part .line {
+        height: 215px;
+    }
+
+    #testimonial-part .next {
+        bottom: -50%;
+
+    }
+
+    #testimonial-part .prev {
+        top: -50%;
+
+    }
+
+    #pricing-part .price {
+        margin-bottom: 15px;
+    }
+
+    #pricing-part {
+        margin: -50px 0;
+    }
+
+    #team-part .item {
+        margin-bottom: 60px;
+    }
+
+    #team-part .item .details .icon i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+
+    #team-part .item .details .icon {
+        margin: 10px 0;
+    }
+
+    footer .logo {
+        padding-top: 30px;
+    }
+
+    footer .footer-details .right-border {
+        border: 0;
+    }
+
+    footer .footer-details p {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0rem;
+    }
+
+
+
+    nav button i {
+        color: #fff;
+        font-size: 35px;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #000;
+    }
+
+    nav ul li {
+        margin-right: 0px;
+        padding-bottom: 5px;
+    }
+
+    nav ul li a:hover::after {
+        width: 0;
+    }
+
+    nav ul li a::after {
+        transition: 0s;
+    }
+
+    nav ul li a span::after {
+        width: 0;
+        background: none;
+    }
+
+    /* nav end */
+
+    #banner-part .prev {
+        top: 60%;
+    }
+
+    #banner-part .next {
+        top: 60%;
+    }
+
+    #banner-part .banner-slider .overlay {
+        padding-bottom: 100px;
+    }
+
+    #banner-part .banner-text p {
+        padding: 22px 0;
+    }
+
+    /* banner par end */
+
+
+
+    #about-part .item-round {
+        height: 220px;
+        width: 220px;
+    }
+
+    #about-part .item-round .image {
+        height: 180px;
+        width: 180px;
+    }
+
+    #about-part .item i {
+        bottom: -28%;
+    }
+
+    #about-part .item-left i {
+        right: -17%;
+    }
+
+    #about-part .item-bottom i {
+        top: -28%;
+    }
+
+    #about-part .item-right i {
+        left: -16%;
+    }
+
+    /* about part end */
+    #portfolio-part .title {
+        margin-top: -60px;
+    }
+
+    #portfolio-part .overlay {
+
+        padding: 60px 0;
+    }
+
+    /* portfolio end */
+
+    #service-part .line {
+        display: none;
+
+    }
+
+    #service-part .service {
+        flex-direction: column;
+    }
+
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #service-part .service:nth-child(2n+1) .title {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #service-part .service .image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    #service-part .service .details p {
+        text-align: center;
+    }
+
+    #service-part .service .details .shape {
+        left: 50%;
+        top: 0;
+    }
+
+    #service-part .service:nth-child(2n+1) .details .shape {
+        left: 50%;
+        top: 0;
+    }
+
+    /* service end */
+
+    #testimonial-part .overlays .text-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    #testimonial-part .overlays .text-box h3 {
+        padding-top: 15px;
+    }
+
+    #testimonial-part .overlays .text-box .shape {
+        display: none;
+    }
+
+    #testimonial-part .overlays .alignment {
+        margin-top: 80px;
+    }
+
+    #testimonial-part .overlays .testi-image-part .line {
+        display: none;
+    }
+
+    #testimonial-part .next {
+        bottom: -42%;
+
+    }
+
+    #testimonial-part .prev {
+        top: -42%;
+
+    }
+
+    /* testi end */
+
+    #pricing-part .price {
+        margin-bottom: 15px;
+    }
+
+    #pricing-part {
+        margin: -50px 0;
+    }
+
+    /* price end */
+    #team-part .item {
+        margin-bottom: 60px;
+    }
+
+    /* team end */
+    #counter-part .overlay .rotate {
+        transform: rotate(-0deg);
+    }
+
+    /* counter end */
+    footer .logo {
+        padding-top: 30px;
+    }
+
+    footer .footer-details .right-border:nth-child(even) {
+        border: 0;
+    }
+
+    footer .footer-details p {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    #banner-part p {
+        padding: 25px;
+    }
+
+    #about-part .item-round {
+        height: 250px;
+        width: 250px;
+    }
+
+    #about-part .item-round .image {
+        height: 210px;
+        width: 210px;
+    }
+
+    #about-part .item i {
+        bottom: -34%;
+    }
+
+    #about-part .item-right i {
+        left: -20%;
+    }
+
+    #about-part .item-bottom i {
+        top: -34%;
+    }
+
+    #about-part .item-left i {
+        right: -20%;
+    }
+
+    #testimonial-part .overlays .text-box {
+        width: 650px;
+    }
+
+    #team-part .item .icon i {
+        height: 27px;
+        width: 27px;
+        line-height: 27px;
+    }
+
+}

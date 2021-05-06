@@ -1,0 +1,1347 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    width: 570px;
+    margin-bottom: 50px !important;
+    margin: 0 auto;
+}
+
+/* =========================================
+            nav-part css start here 
+============================================ */
+
+nav {
+    z-index: 9999;
+    width: 100%;
+    border-bottom: .2px solid rgba(88, 231, 45, 0.63);
+    transition: .5s;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    transition: .4s;
+    position: relative;
+}
+
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -21px;
+    left: 2px;
+    width: 100%;
+    height: 3px;
+    background: #7ef05c;
+    opacity: 0;
+    transition: .4s;
+}
+
+nav ul li a span {
+    color: #6af340;
+}
+
+nav ul li a span::after {
+    position: absolute;
+    opacity: 1;
+    content: "";
+    bottom: -21px;
+    left: 2px;
+    width: 100%;
+    height: 3px;
+    background: #79f753;
+}
+
+nav ul li a:hover {
+    color: #6af340;
+}
+
+
+nav ul li a:hover::after {
+    opacity: 1;
+}
+
+.stickymenu {
+    background: #000;
+}
+
+/* =========================================
+            nav-part css end here 
+============================================ */
+
+
+/* =========================================
+            banner-part css start here 
+============================================ */
+
+#banner-part .banner-slider .banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner-slider .banner-2 {
+    background: url(../images/banner1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner-slider .banner-3 {
+    background: url(../images/banner2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner-slider .overlay {
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    padding: 160px 0;
+    padding-bottom: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+#banner-part .banner-text h3 {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+#banner-part .banner-text h1 {
+    font-size: 55px;
+    color: #6FDA44;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+#banner-part .banner-text p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+#banner-part .banner-text a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #6af340;
+    height: 50px;
+    width: 130px;
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 35px 4px 0 10px;
+    z-index: 2;
+    color: #fff;
+    transition: all linear .5s;
+    background: #6af340;
+}
+
+#banner-part .banner-text a:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+#banner-part .banner-text .hire {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+#banner-part .banner-text .hire:hover {
+    background: #6af340;
+    border: 1px solid #6af340;
+}
+
+#banner-part .prev {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    left: 20px;
+    transform: translateY(50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#banner-part .prev:hover {
+    background: #6af340;
+    color: #fff;
+}
+
+
+#banner-part .next {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    right: 20px;
+    transform: translateY(50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#banner-part .next:hover {
+    background: #6af340;
+    color: #fff;
+}
+
+/* =========================================
+            banner-part css end here 
+============================================ */
+
+
+/* =========================================
+            banner bottom-part css start here 
+============================================ */
+#banner-bottom {
+    background: #fff;
+    height: 300px;
+    transform: skewX(-86deg);
+    transform-origin: left bottom;
+    position: relative;
+    top: -300px;
+}
+
+/* =========================================
+            banner bottom-part css end here 
+============================================ */
+
+/* =========================================
+            about-part css start here 
+============================================ */
+#about-part {
+    margin-bottom: -280px;
+}
+
+#about-part .title h2 {
+    margin-top: -250px;
+}
+
+#about-part .item {
+    text-align: center;
+    background: #eeeeee;
+    position: relative;
+    transition: .6s;
+
+}
+
+#about-part .item:hover {
+    filter: drop-shadow(0px 2px 3px #bdb3b3);
+}
+
+#about-part .item h3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #111111;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#about-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+#about-part .item .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+
+#about-part .item i {
+    position: absolute;
+    left: 50%;
+    bottom: -38%;
+    font-size: 25px;
+    transform: translateX(-50%);
+    transition: .4s;
+}
+
+#about-part .item:hover i {
+    color: #6af340;
+}
+
+#about-part .item-round {
+    height: 370px;
+    width: 370px;
+    border: 1px solid #111111;
+    border-radius: 50%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-part .item-round .image {
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* #about-part .item-round .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} */
+
+#about-part .item-round .image .overlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* ====================item-left */
+
+#about-part .item-main-left {
+    display: flex;
+    align-items: center;
+}
+
+#about-part .item-left {
+    text-align: right;
+    background: #eeeeee;
+    position: relative;
+    transition: .6s;
+}
+
+#about-part .item-left:hover {
+    filter: drop-shadow(0px 2px 3px #bdb3b3);
+}
+
+#about-part .item-left h3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #111111;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#about-part .item-left p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+#about-part .item-left .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%) rotate(45deg);
+}
+
+#about-part .item-left i {
+    position: absolute;
+    right: -11%;
+    top: 50%;
+    font-size: 25px;
+    transform: translatey(-50%);
+    transition: .4s;
+}
+
+#about-part .item-left:hover i {
+    color: #6af340;
+}
+
+/* =======================item right */
+#about-part .item-right {
+    text-align: left;
+    background: #eeeeee;
+    position: relative;
+    transition: .6s;
+}
+
+#about-part .item-right:hover {
+    filter: drop-shadow(0px 2px 3px #bdb3b3);
+}
+
+#about-part .item-right h3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #111111;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#about-part .item-right p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+#about-part .item-right .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#about-part .item-right i {
+    position: absolute;
+    left: -7%;
+    top: 50%;
+    font-size: 25px;
+    transform: translatey(-50%);
+    transition: .4s;
+}
+
+#about-part .item-right:hover i {
+    color: #6af340;
+}
+
+/* ==================item bottom */
+#about-part .item-bottom {
+    text-align: center;
+    background: #eeeeee;
+    position: relative;
+    transition: .6s;
+
+}
+
+#about-part .item-bottom:hover {
+    filter: drop-shadow(0px 2px 3px #bdb3b3);
+}
+
+#about-part .item-bottom h3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #111111;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#about-part .item-bottom p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+#about-part .item-bottom .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#about-part .item-bottom i {
+    position: absolute;
+    left: 50%;
+    top: -38%;
+    font-size: 25px;
+    transform: translateX(-50%);
+    transition: .4s;
+}
+
+#about-part .item-bottom:hover i {
+    color: #6af340;
+}
+
+/* =========================================
+            about-part css end here 
+============================================ */
+
+/* =========================================
+            portfolio-top css start
+============================================ */
+#portfolio-top {
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: -300px;
+}
+
+/* =========================================
+            portfolio-top css  end
+============================================ */
+
+/* =========================================
+            portfolio css end
+============================================ */
+
+#portfolio-part {
+    margin-top: 100px;
+    background: url(../images/portfolio-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#portfolio-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding: 200px 0;
+}
+
+#portfolio-part .title {
+    margin-top: -150px;
+}
+
+#portfolio-part .title h2 {
+    color: #fff;
+}
+
+#portfolio-part .title p {
+    color: #fff;
+}
+
+#portfolio-part .item:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#portfolio-part .item .img {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#portfolio-part .item .img img {
+    width: 100%;
+}
+
+#portfolio-part .item .img .overlay-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+#portfolio-part .item .img:hover .overlay-img {
+    opacity: 1;
+}
+
+/* =========================================
+            portfolio css end
+============================================ */
+
+/* =========================================
+            portfolio-bottom  css start
+============================================ */
+#portfolio-bottom {
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: left bottom;
+    position: relative;
+    top: -200px;
+}
+
+/* =========================================
+            portfolio-bottom css end
+============================================ */
+
+/* =========================================
+            service-part css start
+============================================ */
+
+
+
+
+#service-part {
+    margin-top: -200px;
+    position: relative;
+}
+
+#service-part .line {
+    width: 1px;
+    background: url(../images/line.png);
+    height: 680px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#service-part .service {
+    display: flex;
+    justify-content: space-between;
+}
+
+#service-part .service:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+
+#service-part .service .title {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#service-part .service:nth-child(odd) .title {
+    justify-content: flex-start;
+}
+
+#service-part .service .image {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+#service-part .service .image .round {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #eeeeee;
+    position: relative;
+    margin: 0 auto;
+    transition: .4s;
+}
+
+#service-part .slick-center .image .round {
+    background: #6af340;
+    transform: scale(1.2);
+
+}
+
+#service-part .service .image .round img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#service-part .service .details {
+    width: 40%;
+    background: #eeeeee;
+    padding: 40px;
+    position: relative;
+    filter: drop-shadow(0px 2px 3px transparent);
+    transition: .4s;
+}
+
+#service-part .service .details:hover {
+    filter: drop-shadow(0px 2px 3px #bdb3b3);
+
+}
+
+#service-part .service .details .shape {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #eeeeee;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#service-part .service:nth-child(odd) .details .shape {
+    left: 100%;
+}
+
+#service-part .prev {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid black;
+}
+
+#service-part .prev:hover {
+    background: #6af340;
+    color: #eeeeee;
+    border: 1px solid #6af340;
+}
+
+#service-part .next {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    bottom: -5p%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid black;
+}
+
+#service-part .next:hover {
+    background: #6af340;
+    color: #eeeeee;
+    border: 1px solid #6af340;
+}
+
+/* =========================================
+            service -part css end here
+============================================ */
+
+/* =========================================
+            testimonial -part css start here
+============================================ */
+#testimonial-part {
+    margin: 100px 0;
+    background: url(../images/team-banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#testimonial-part .overlays {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    padding: 100px 0;
+}
+
+#testimonial-part .overlays .testi-image-part {
+    position: relative;
+}
+
+#testimonial-part .overlays .testi-image-part .line {
+    background: url(../images/line.png);
+    position: absolute;
+    height: 500px;
+    width: 1px;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#testimonial-part .overlays .round {
+    height: 100px;
+    width: 100px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    margin: 15px auto;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+}
+
+#testimonial-part .overlays .round img {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+#testimonial-part .overlays .slick-center .round {
+    background: #6af340;
+    transform: scale(1.2);
+}
+
+#testimonial-part .overlays .slick-center .round .overlay {
+    opacity: 0;
+}
+
+#testimonial-part .overlays .test-img-slider .round .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .7);
+}
+
+#testimonial-part .prev {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid black;
+}
+
+#testimonial-part .prev:hover {
+    background: #6af340;
+    color: #eeeeee;
+    border: 1px solid #6af340;
+}
+
+#testimonial-part .next {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid black;
+}
+
+#testimonial-part .next:hover {
+    background: #6af340;
+    color: #eeeeee;
+    border: 1px solid #6af340;
+}
+
+#testimonial-part .overlays .alignment {
+    display: flex;
+    align-items: center;
+}
+
+#testimonial-part .overlays .text-box {
+    width: 800px;
+    background: #f1f1f1;
+    position: relative;
+    padding: 40px;
+
+}
+
+#testimonial-part .overlays .text-box h6 {
+    margin-left: 650px;
+}
+
+#testimonial-part .overlays .text-box .shape {
+    height: 25px;
+    width: 25px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* =========================================
+            testimonial -part css end here
+============================================ */
+
+/* =========================================
+            pricing -part css start here
+============================================ */
+#pricing-part {
+    margin: 50px 0;
+}
+
+#pricing-part .price {
+    background: #f1f1f1;
+}
+
+#pricing-part .price .top-part {
+    height: 137px;
+    background: #333232;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    text-align: center;
+    transition: .4s;
+}
+
+#pricing-part .price .top-part h3 {
+    color: #fff;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#pricing-part .price .list {
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#pricing-part .price .list ul {
+    padding-left: 0;
+    line-height: 35px;
+}
+
+#pricing-part .price .list .round {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    top: 0;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: .4s;
+}
+
+
+#pricing-part .price .list .round .small-round {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #333232;
+    transition: .4s;
+}
+
+#pricing-part .price .list .round .small-round p {
+    color: #fff;
+}
+
+#pricing-part .price .list .round .small-round span {
+    font-size: 24px;
+}
+
+
+#pricing-part .price .price-footer {
+    text-align: center;
+    background: #333232;
+    height: 80px;
+    color: #fff;
+    padding-top: 20px;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+    transition: .4s;
+}
+
+#pricing-part .price:hover .top-part {
+    background: #6af340;
+}
+
+#pricing-part .price:hover .list .round {
+    border: 1px solid #6af340;
+}
+
+#pricing-part .price:hover .list .round .small-round {
+    background: #6af340;
+    border: 1px solid #6af340;
+}
+
+#pricing-part .price:hover .price-footer {
+    background: #6af340;
+}
+
+/* =========================================
+            pricing -part css end here
+============================================ */
+
+
+/* =========================================
+            counter -part css start here
+============================================ */
+#counter-top {
+    background: #fff;
+    height: 300px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: -110px;
+}
+
+/* ------------------------------- */
+#counter-part {
+    margin-top: -190px;
+    background: url(../images/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#counter-part .overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 80px 0;
+}
+
+#counter-part .overlay .rotate {
+    transform: rotate(-5deg);
+}
+
+#counter-part .overlay .item {
+    border: 1px solid #fff;
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
+}
+
+/* -------------------------------------- */
+#counter-bottom {
+    background: #fff;
+    height: 300px;
+    transform: skewX(-86deg);
+    transform-origin: left bottom;
+    position: relative;
+    top: -300px;
+}
+
+/* =========================================
+            counter -part css end here
+============================================ */
+
+/* =========================================
+            team -part css start here
+============================================ */
+#team-part {
+    margin-top: -300px;
+    margin-bottom: 60px;
+}
+
+#team-part .mb {
+    margin: 0 10px;
+}
+
+#team-part .item {
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 100%;
+}
+
+#team-part .item .images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #f1f1f1;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+
+#team-part .item .images img {
+    width: 100%;
+    height: 100%;
+}
+
+#team-part .item .images .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    left: 0;
+    background: #7ef05c85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+
+}
+
+#team-part .item .images .overlay i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#team-part .item:hover .images .overlay {
+    bottom: 0;
+}
+
+
+#team-part .item .details h3 {
+    padding: 10px 0;
+}
+
+#team-part .item .details p {
+    margin-bottom: 20px;
+}
+
+#team-part .item .icon {
+    margin-bottom: 20px;
+    margin-top: -50px;
+    transition: .4s;
+    opacity: 0;
+}
+
+#team-part .item:hover .icon {
+    margin-top: 0;
+    opacity: 1;
+}
+
+#team-part .item .icon i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #111111;
+    color: #111111;
+    margin: 0 10px;
+    transition: .4s;
+
+}
+
+#team-part .item .icon i:hover {
+    background: #6af340;
+    color: #fff;
+    border: 1px solid #6af340;
+}
+
+/* =========================================
+            team -part css end here
+============================================ */
+
+/* =========================================
+            image -part css start here
+============================================ */
+#image-top {
+    background: #fff;
+    height: 300px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: 0px;
+}
+
+
+#image-part {
+    background: #eeeeee;
+    padding: 100px 0;
+    margin-top: -300px;
+}
+
+
+#image-part .imgage-slider .slick-center {
+    border: 1px solid #6af340;
+}
+
+#image-part .imgage-slider img {
+    border: 1px solid #bdb3b3;
+    padding: 40px 0;
+    margin: 0 10px;
+
+}
+
+#image-part .rotate {
+    transform: rotate(-5deg);
+}
+
+/* ------------------------------- */
+#image-bottom {
+    background: #444444;
+    height: 300px;
+    transform: skewX(-86deg);
+    transform-origin: left bottom;
+    position: relative;
+    top: -300px;
+}
+
+
+/* =========================================
+            image -part css end here
+============================================ */
+
+/* =========================================
+            footer -part css start here
+============================================ */
+footer {
+    background: #444444;
+    margin-top: -300px;
+    text-align: center;
+}
+
+footer .logo {
+    padding-bottom: 35px;
+    border-bottom: 2px solid #333232;
+    transform: rotate(-4deg);
+}
+
+footer .logo img {
+    transform: rotate(4deg);
+}
+
+footer .footer-details {
+    margin-top: 50px;
+}
+
+footer .footer-details .right-border {
+    border-right: 1px solid #333232;
+}
+
+footer .footer-details .right-border:last-child {
+    border: 0;
+}
+
+footer .footer-details p {
+    color: #fff;
+}
+
+footer .footer-details .icon {
+    margin-bottom: 10px;
+}
+
+footer .footer-details .icon i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #6af340;
+    line-height: 30px;
+    color: #fff;
+}
+
+footer .footer-details h5 {
+    color: #fff;
+    padding: 15px 0;
+}
+
+footer .footer-details ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+footer .footer-details ul li {
+    margin: 0 7px;
+}
+
+
+footer .footer-details ul li i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 40px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+footer .footer-details ul li i:hover {
+    background: #6af340;
+}
+
+footer .copyright {
+    background: #bdb3b3;
+    padding: 5px;
+    border-top: 1px solid #fff;
+}
+
+footer .copyright span {
+    color: #7ef05c;
+}
+
+/* =========================================
+            footer -part css end here
+============================================ */
