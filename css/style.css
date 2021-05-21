@@ -90,11 +90,11 @@ nav ul li a::after {
     transition: .4s;
 }
 
-nav ul li a span {
+/* nav ul li a span {
     color: #6af340;
-}
+} */
 
-nav ul li a span::after {
+/* nav ul li a span::after {
     position: absolute;
     opacity: 1;
     content: "";
@@ -103,12 +103,19 @@ nav ul li a span::after {
     width: 100%;
     height: 3px;
     background: #79f753;
+} */
+
+nav ul li a.active {
+    color: #6af340;
 }
 
 nav ul li a:hover {
     color: #6af340;
 }
 
+nav ul li a.active::after {
+    opacity: 1;
+}
 
 nav ul li a:hover::after {
     opacity: 1;
@@ -832,8 +839,8 @@ nav ul li a:hover::after {
 }
 
 #testimonial-part .overlays .round {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background: #f1f1f1;
     border-radius: 50%;
     margin: 15px auto;
@@ -845,7 +852,7 @@ nav ul li a:hover::after {
 #testimonial-part .overlays .round img {
     position: absolute;
     top: 15px;
-    left: 0;
+    left: -7px;
 }
 
 #testimonial-part .overlays .slick-center .round {
@@ -998,8 +1005,8 @@ nav ul li a:hover::after {
 
 
 #pricing-part .price .list .round .small-round {
-    height: 85px;
-    width: 85px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
     border: 1px solid #000;
     top: 50%;
@@ -1010,13 +1017,25 @@ nav ul li a:hover::after {
     transition: .4s;
 }
 
-#pricing-part .price .list .round .small-round p {
+
+
+.small-round p {
     color: #fff;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
 }
 
-#pricing-part .price .list .round .small-round span {
-    font-size: 24px;
+
+.small-round .rate-p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0;
 }
+
+
 
 
 #pricing-part .price .price-footer {
