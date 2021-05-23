@@ -1,3 +1,11 @@
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+        $(".bottom-to-top").fadeIn()
+    } else {
+        $(".bottom-to-top").fadeOut()
+    }
+})
+
 // sticky menu
 $(window).scroll(function () {
   if ($(window).scrollTop() > 100) {
